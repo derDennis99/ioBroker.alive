@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "template",
+        "name": "alive",
         "version": "0.0.1",
         "news": {
             "0.0.1": {
@@ -16,7 +16,7 @@
                 "zh-cn": "首次出版"
             }
         },
-        "title": "Template (JavaScript)",
+        "title": "alive",
         "titleLang": {
             "en": "Template (JavaScript)",
             "de": "Vorlage (JavaScript)",
@@ -42,7 +42,7 @@
             "zh-cn": "适配器开发的模板"
         },
         "authors": [
-            "Author <author@mail.com>"
+            "Dennis Köcher"
         ],
         "keywords": [
             "ioBroker",
@@ -53,10 +53,10 @@
         "license": "MIT",
         "platform": "Javascript/Node.js",
         "main": "main.js",
-        "icon": "template.png",
+        "icon": "alive.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/Author/ioBroker.template/master/admin/template.png",
-        "readme": "https://github.com/Author/ioBroker.template/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/derDennis99/ioBroker.alive/master/admin/alive.png",
+        "readme": "https://github.com/derDennis99/ioBroker.alive/blob/master/README.md",
         "loglevel": "info",
         "mode": "daemon",
         "type": "general",
