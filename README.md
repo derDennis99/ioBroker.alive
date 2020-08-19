@@ -24,7 +24,7 @@ Template for adapter development
 ## License
 MIT License
 
-Copyright (c) 2020 Dennis Köcher <author@mail.com>
+Copyright (c) 2020 derDennis99
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
