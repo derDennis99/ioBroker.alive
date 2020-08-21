@@ -20,24 +20,13 @@
     <script type="text/javascript">
         // This will be called by the admin adapter when the settings page loads
         function load(settings, onChange) {
-            // example: select elements with id=key and class=value and insert value
-            if (!settings) return;
-            $('.value').each(function () {
-                var $key = $(this);
-                var id = $key.attr('id');
-                if ($key.attr('type') === 'checkbox') {
-                    // do not call onChange direct, because onChange could expect some arguments
-                    $key.prop('checked', settings[id])
-                        .on('change', () => onChange())
-                        ;
-                } else {
-                    // do not call onChange direct, because onChange could expect some arguments
-                    $key.val(settings[id])
-                        .on('change', () => onChange())
-                        .on('keyup', () => onChange())
-                        ;
-                }
-            });
+        
+            var arr = ["Test1","Test2","Test3"]
+            for (var i = 0; i< arr.length;i++){
+                rules.Rows.Add(New TableRow() { Width = 250});
+                rules.Rows[rules.Rows.Count -1].Cells.Add(new TableCell() { Text = arr[i], wdth = 250});
+            }
+
             onChange(false);
             // reinitialize all the Materialize labels on the page if you are dynamically adding inputs:
             if (M) M.updateTextFields();
@@ -75,20 +64,6 @@
 
         <!-- For example columns with settings: -->
         <div class="row">
-            <div class="col s6 input-field">
-                <input type="checkbox" class="value" id="option1" />
-                <label for="option1" class="translate">option1</label>
-            </div>
-
-            <div class="col s6 input-field">
-                <input type="text" class="value" id="option2" />
-                <label for="option2" class="translate">option2</label>
-            </div>
-
-            <div class="col s6 input-field">
-                <input type="text" class="value" id="option3" />
-                <label for="option3" class="translate">option3</label>
-            </div>
 
             <div class="col s12" id="rules">
                 <a class="btn-floating waves-effect waves-light blue table-button-add"><i class="material-icons">add</i></a>
@@ -97,8 +72,8 @@
                         <thead>
                         <tr>
                             <th data-name="_index"   style="width: 40px"  class="translate"></th>
-                            <th data-name="rule_enabled"  style="width: 70px" data-style="width: 70px" data-type="checkbox" class="translate">Rule_enabled</th>
-                            <th data-name="rule_name"     class="translate">Rule_Name</th>
+                            <th data-name="rule_enabled"  style="width: 70px" data-style="width: 70px" data-type="checkbox" class="translate">Enabled</th>
+                            <th data-name="rule_name"     class="translate">Rulename</th>
                             <th data-buttons="delete up down" style="width: 120px"></th>
                         </tr>
                         </thead>
