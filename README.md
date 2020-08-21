@@ -3,14 +3,14 @@
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.alive.svg)](https://www.npmjs.com/package/iobroker.alive)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.alive.svg)](https://www.npmjs.com/package/iobroker.alive)
-![Number of Installations (latest)](http://iobroker.live/badges/template-installed.svg)
-![Number of Installations (stable)](http://iobroker.live/badges/template-stable.svg)
-[![Dependency Status](https://img.shields.io/david/Author/iobroker.template.svg)](https://david-dm.org/Author/iobroker.alive)
-[![Known Vulnerabilities](https://snyk.io/test/github/Author/ioBroker.template/badge.svg)](https://snyk.io/test/github/Author/ioBroker.alive)
+![Number of Installations (latest)](http://iobroker.alive/badges/template-installed.svg)
+![Number of Installations (stable)](http://iobroker.alive/badges/template-stable.svg)
+[![Dependency Status](https://img.shields.io/david/derDennis99/iobroker.template.svg)](https://david-dm.org/derDennis99/iobroker.alive)
+[![Known Vulnerabilities](https://snyk.io/test/github/derDennis99/ioBroker.alive/badge.svg)](https://snyk.io/test/github/derDennis99/ioBroker.alive)
 
 [![NPM](https://nodei.co/npm/iobroker.alive.png?downloads=true)](https://nodei.co/npm/iobroker.alive/)
 
-**Tests:**: [![Travis-CI](http://img.shields.io/travis/Author/ioBroker.alive/master.svg)](https://travis-ci.org/Author/ioBroker.alive)
+**Tests:**: [![Travis-CI](http://img.shields.io/travis/derDennis99/ioBroker.alive/master.svg)](https://travis-ci.org/derDennis99/ioBroker.alive)
 
 ## template adapter for ioBroker
 
