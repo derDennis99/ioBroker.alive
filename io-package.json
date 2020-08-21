@@ -5,17 +5,17 @@
         "news": {
             "0.0.1": {
                 "en": "initial release",
-                "de": "Erstveröffentlichung",
+                "de": "Erstveröffentlichung"
             }
         },
         "title": "alive",
         "titleLang": {
             "en": "Check your devices",
-            "de": "Überprüfen Sie Ihre Geräte",
+            "de": "Überprüfen Sie Ihre Geräte"
         },
         "desc": {
             "en": "Template for adapter development",
-            "de": "Vorlage für die Adapterentwicklung",
+            "de": "Vorlage für die Adapterentwicklung"
         },
         "authors": [
             "derDennis99"
@@ -43,15 +43,7 @@
             "singleton": true,
             "name": {
                 "en": "Template (JavaScript)",
-                "de": "Vorlage (JavaScript)",
-                "ru": "Шаблон (JavaScript)",
-                "pt": "Modelo (JavaScript)",
-                "nl": "Sjabloon (JavaScript)",
-                "fr": "Modèle (JavaScript)",
-                "it": "Modello (JavaScript)",
-                "es": "Plantilla (JavaScript)",
-                "pl": "Szablon (JavaScript)",
-                "zh-cn": "范本（JavaScript）"
+                "de": "Vorlage (JavaScript)"
             },
             "link": "",
             "fa-icon": "info"
